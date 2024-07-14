@@ -1,9 +1,9 @@
 <?php
 
 $Uname = "script.lua";  //Script Name [Don't Change Name]
-$Url1 = "http://usename.000webhostapp.com/Register.php"; //REGISTER.PHP
-$Url2 = "http://usename.000webhostapp.com/User.php"; //USER.PHP
-$Url3 = "http://usename.000webhostapp.com/ActionManager.php"; //ActionManager.php
+$Url1 = "https://mrquoan.github.io/Game/Register.php"; //REGISTER.PHP
+$Url2 = "https://mrquoan.github.io/Game/User.php"; //USER.PHP
+$Url3 = "https://mrquoan.github.io/Game/ActionManager.php"; //ActionManager.php
 $Keyy1 = "DowrDnASKiDdJFxXPxEDcjf42BUqHzkbUaCNm4wHw8AyTpa7gEGJgE3paHkZbTapcWZbe4NHD";
 $Keyy2 = "DowrDnASKih9PAqdjejjsjsjdJ6BWCSeqqns";
 $Keyy3 = "DowrDnASKiBuduejsnfnfPg3J6H8t6xnPVrR";
@@ -116,12 +116,12 @@ if($content[dark74encode($username)]   <> null){
 				}
 		}
 		else{
-			ExitAlert("Không thể truy cập");
+			ExitAlert("CAN'T LOGIN");
 			return;
 }
 	}
 	else{
-		ExitAlert("Key không tồn tại");
+		ExitAlert("KEY DOES NOT EXIST");
 		return;
 		}
 ?>
